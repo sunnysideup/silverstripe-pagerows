@@ -1,0 +1,31 @@
+{
+    "name": "sunnysideup/pagerows",
+    "type": "silverstripe-module",
+    "description": "Add content blocks to your Silverstripe CMS pages.  This allows you to manage content block individually, share them between pages and edit the content types on a page by page basis.",
+    "keywords": [
+        "Silverstripe-CMS",
+        "CMS",
+        "Silverstripe",
+        "content blocks",
+        "content",
+        "page rows",
+        "blocks",
+        "content editor"
+    ],
+    "license": "BSD-3-Clause",
+    "authors": [
+        {
+            "name": "Nicolaas Francken",
+            "email": "modules@sunnysideup.co.nz",
+            "role": "lead developer"
+        }
+    ],
+    "require": {
+        "silverstripe/framework": "~3.6",
+        "silverstripe/cms": "~3.6",
+        "tractorcow/silverstripe-dynamiccache": "~4.3"
+    },
+    "extra": {
+        "installer-name": "dynamic_cache_secure"
+    }
+}
