@@ -22,10 +22,9 @@
     ],
     "require": {
         "silverstripe/framework": "~3.6",
-        "silverstripe/cms": "~3.6",
-        "tractorcow/silverstripe-dynamiccache": "~4.3"
+        "silverstripe/cms": "~3.6"
     },
     "extra": {
-        "installer-name": "dynamic_cache_secure"
+        "installer-name": "pagerows"
     }
 }
