@@ -1,0 +1,6 @@
+---
+Name: pagerowroutes
+---
+Director:
+  rules:
+    'preview-page-row//$Action/$ID/$OtherID': 'PreviewPageRow'

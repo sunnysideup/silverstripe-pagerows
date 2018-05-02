@@ -1,0 +1,15 @@
+---
+Name: pagerow
+---
+Page:
+  extensions:
+    - PageRowPageExtension
+
+Page_Controller:
+  extensions:
+    - PageRowPageControllerExtension
+
+PageRow:
+  extensions:
+    - PageRowCMSFieldsFixes
+    - Versioned("Stage")
